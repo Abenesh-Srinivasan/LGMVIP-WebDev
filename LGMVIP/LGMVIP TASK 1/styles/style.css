@@ -1,0 +1,302 @@
+body {
+
+    font-family: 'Montserrat', sans-serif;
+}
+/* navbar */
+
+.navbar{
+    padding: 15px 10px !important;
+    background-color: #000 !important;
+}
+
+.navbar-brand{
+    font-size: 1.5rem !important;
+    color: #fff !important;
+    font-family: 'Monoton', cursive;
+}
+
+.nav-link{
+    font-size: 0.8rem !important;
+    color: #fff !important;
+}
+
+/* welcome */
+
+.carousel-content{
+    position: absolute;
+    bottom: 40%;
+    left: 10%;
+    font-size: xx-large;
+    text-align: left;
+    margin-right: 850px;
+}
+
+.carousel-content h2{
+    font-size: 3.5rem;
+    font-family: 'Playfair Display-bold', serif;
+    
+}
+
+.carousel-content p{
+    font-size: 1.5rem;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+}
+
+.caro-cont h2{
+    font-size: 3.5rem;
+    font-family: 'Playfair Display-bold', serif;
+    color: #fff;
+}
+
+.caro-cont p{
+    font-size: 1.5rem;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+}
+
+#welcome{
+    text-align: center;
+}
+
+.inner{
+    font-size: 2.5rem;
+    padding: 50px 0px 10px;
+}
+
+.cont{
+    padding: 35px 150px !important;
+   
+}
+
+.col-cont{
+    font-size: 1.4rem;
+}
+
+.wel-row{
+    padding: 0 250px;
+    text-align: left;
+}
+
+/* welcome-cards */
+
+.card{
+    text-align: center;
+    border: none;
+}
+
+.cont-card{
+    padding: 40px 0px;
+}
+
+.card-texting{
+    padding: 18px 0;
+}
+
+i.fa-bell, i.fa-envelope, i.fa-cubes{
+    color: #3B185F;
+}
+
+/* projects */
+
+#projects{
+    background-image: linear-gradient(to bottom, black, white);
+}
+
+.proj{
+    padding: 30px 0px;
+    text-align: center;
+    color: #fff;
+}
+
+.col-card{
+    flex-grow: 0 !important;
+    padding: 0px 40px !important;
+}
+
+.row-card{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    padding: 30px 0px;
+}
+
+.card-proj {
+    transition: transform 0.2s ease;
+    box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+    border-radius: 0;
+    border: 0;
+    margin-bottom: 1.5em;
+  }
+.card-proj:hover {
+    transform: scale(1.1);
+  }
+
+/* pricing-table */
+
+.price{
+    text-align: center;
+    padding: 30px 0;
+}
+
+.card-price{
+    border: 0 !important;
+}
+
+.col-price-mid{
+    border-left-width: 0.1rem;
+    border-left-style: groove;
+    border-right-width: 0.1rem;
+    border-right-style: ridge;
+    border-color: grey;
+}
+
+.row-price{
+    margin: 0 !important;
+    border: 0 !important;
+    padding: 50px 300px;
+}
+
+.col-price{
+    padding: 0 !important;
+    flex-grow: 0 !important;
+}
+
+/* video projects */
+
+#video-projects{
+    /* background-color: grey; */
+    background-image: linear-gradient(to bottom, black, white);
+}
+
+.video-h2{
+    text-align: center;
+    padding: 15px 0px 5px;
+    color: #fff;
+}
+
+.car-item{
+    margin-left: 350;
+}
+
+/* zippy team */
+
+#zippy-team{
+    padding: 20px 200px;
+
+}
+.team{
+    clip-path: circle();
+}
+
+.team-h2{
+    text-align: center;
+    padding: 15px 0;
+}
+
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 40%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+  
+.contain:hover .img6 {
+    opacity: 0.3;
+}
+
+.contain:hover .img5 {
+    opacity: 0.3;
+}
+  
+.contain:hover .img4 {
+    opacity: 0.3;
+}
+  
+.contain:hover .middle {
+    opacity: 1;
+}
+
+/* newletter */
+
+#newsletter{
+    text-align: center;
+    line-height: 2;
+    padding: 100px 0px;
+    /* background-color: grey; */
+    background-image: linear-gradient(to right, red, yellow);
+}
+
+.news-h2{
+    padding: 20px 0px;
+}
+
+/* blog */
+
+.blog-h2{
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.blog-row{
+    padding: 10px 280px !important;
+    margin: 0 !important;
+    border: 0 !important;
+}
+
+.blog-col{
+    flex-grow: 0 !important;
+}
+
+/* contact */
+
+#contact{
+    padding: 20px 0px;
+}
+
+.conta-row{
+    padding: 0px !important;
+    margin: 0 !important;
+    border: 0 !important;
+    background-image: linear-gradient(to bottom,white,grey) ;
+}
+
+.conta-col{
+    flex-grow: 0 !important;
+    padding: 0px !important;
+}
+
+.conta-col-2{
+    padding: 20px 20px; 
+}
+
+/* footer */
+
+#footer{
+    text-align: center;
+}
+
+.foot-row{
+    padding: 0px !important;
+    margin: 0 !important;
+    border: 0 !important;
+}
+
+.foot-col{
+    /* flex-grow: 0 !important; */
+    padding: 20px  100px !important;
+}
+
+.foot-col i{
+    margin: 0px 5px;
+}
+
+
+
+.btn:hover{
+    background-color: purple;
+}
